@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}Alfian Pratama{% endblock %}</title>
+
+    <style type="text/css">
+      {% include "style/normalize.css" %}
+      {% include "style/style.css" %}
+    </style>
+
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <div class="page-content">
+        <header class="page-header">
+          <h1 class="page-title"><a href="/">Alfian Pratama</a></h1>
+          <h2 class="page-subtitle">On languages, text editors and tools</h2>
+        </header>
+
+        <main class="page-main">
+          {% block body %}
+            <p>Nothing to see here...</p>
+          {% endblock %}
+        </main>
+
+        <footer class="page-footer">
+          <p>
+            <a href="https://twitter.com/alfian_pr">@alfian_pr</a> &middot;
+            <a href="alfianpratama@hotmail.com">alfianpratama@hotmail.com</a> &middot; 
+            <a href="/feed.xml">feed</a> &middot;
+            <a href="https://github.com/alfianpr">github</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <link rel="stylesheet" href="/assets/style/github-rouge-theme.css">
+  </body>
+</html>

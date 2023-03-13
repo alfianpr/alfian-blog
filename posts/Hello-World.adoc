@@ -1,0 +1,5 @@
+= Hello World
+Alfian Pratama
+2023-03-13
+
+This is my first blog post, hope you enjoy my future posts :D
