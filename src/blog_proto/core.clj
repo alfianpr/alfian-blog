@@ -10,7 +10,8 @@
   [["/" (fn [request-map] (response/ok
          (slurp (io/file "output/index.html"))))] ;;home index html
    ["/posts/:post" {:get (fn [{{:keys [post]} :path-params}]
-                   (response/ok (slurp (io/file (str "output/" post "/index.html")))))}]]) ;;route subfolder in output
+                   (response/ok (slurp (io/file (str "output/" post "/index.html")))))}]
+   ["/feed.xml" (fn [request-map] (response/ok (slurp (io/file "output/sitemap.xml"))))]]) ;;route subfolder in output
 
 (def handler
   (reitit/ring-handler

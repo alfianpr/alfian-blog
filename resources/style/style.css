@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background-color: #EEEEEE;
+  background-color: #ffffff;
   line-height: 1.4;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #519F50;
+  color: #85afee;
 }
 
 a:hover {
@@ -69,8 +69,8 @@ a:hover {
 }
 
 .page-title a, .page-title a:visited {
-  color: #519F50;
-  text-decoration: underline;
+  color: #68A8E4;
+  text-decoration: none;
 }
 
 .page-subtitle {
@@ -135,13 +135,13 @@ a:hover {
 
 pre.highlight {
   padding: 0.3rem;
-  background-color: #DFDFDF;
+  background-color: #ffffff;
   overflow: auto;
   border: 1px solid #FF5C8F;
 }
 
 blockquote {
-  border-left: #2C78BF 0.3rem solid;
+  border-left: #68A8E4 0.3rem solid;
   margin-left: 1rem;
   padding-left: 1rem;
   color: #2D2C29;
